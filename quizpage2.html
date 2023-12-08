@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="1200;url=quiz-end.html"> <!-- 1200 seconds = 20 minutes -->
+    <title>Maths Quiz 1</title>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">s
+    <link rel="stylesheet" href="/CSS/general.css">
+    <link rel="stylesheet" href="/CSS/topbar.css">
+    <link rel="stylesheet" href="/CSS/rightside.css">
+    <link rel="stylesheet" href="/CSS/leftside.css">
+    <link rel="stylesheet" href="/CSS/sidebar.css">
+    <link rel="stylesheet" href="/Hover/buttonhover.css">
+    <style>
+        p{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .logo{
+            height:53px;
+            margin-left:40px;
+            margin-top:10px;
+        }
+     .Logintogetstarted{
+        color:white;
+        margin-top:25px;
+        margin-left:200px;
+        font-size:25px;
+        font-weight:bold;
+        
+     }
+     .home{
+        height:30px;
+        margin-top:50px;
+        margin-left:30px;
+     }
+     .aboutus{
+        height:30px;
+        margin-top:50px;
+        margin-left:25px
+     }
+     .page{
+       
+        margin-left:50px;
+        width:100%
+        margin-top:10px;
+          }
+    .welcome{
+        margin-left:250px;
+        margin-top:100px;
+        font-family:arial;
+        font-size:45px;
+        font-weight:bold;
+        margin-bottom:0px;
+        
+        }
+    .box{
+        margin-left:500px;
+        display:inline-block;
+        margin-top:50px;;
+        border-width:1px;
+        border-color:black;
+        margin-top:100px;
+        
+       
+    }
+    .email{
+        display:block;
+        width:550px;
+        height:45px;
+        font-size:20px;
+        font-family:arial;
+       
+        background-color: #F6F6F6;
+        border-width:0px;
+       
+    }
+
+    .pw{
+        display:block;
+        width:550px;
+      border-width:0;
+        margin-top:10px;
+        height:45px;
+       font-size:20px;
+        font-family:arial;
+        background-color: #F6F6F6;
+       
+    }
+
+    .login_buttons{
+        margin-top:20px;
+    }
+    .loginbutton{
+        padding:15px;
+        width:250px;
+        height:65.2px;
+        vertical-align: top;
+        background-color: black;
+        border-width:0;
+        color:white;
+        font-family:arial;
+        font-size:25px;
+        font-weight:bold;
+        border-radius:5px;
+        
+    }
+    .signup{
+        width:260px;
+        padding:15px;
+        margin-left:40px;
+        font-family:arial;
+        font-size:20px;
+        font-weight:bold;
+        height:65.2px;
+        background-color:#EEEEEE;
+        border-width:0;
+        color:black;
+        border-radius:5px;
+    }
+    .logo_com{
+        height:100px;
+        margin-left:100px;
+    }
+      .contact{
+        margin-left:100px;
+        background-color:indigo;
+        margin-top:500px;
+        height:300px;
+      }
+
+
+
+    .contact_us{
+        color:white;
+        font-size:40px;
+        margin-left:30px;
+        
+    }
+    .phone{
+        color:white;
+        font-size:15px;
+        margin-left:8px;
+        vertical-align:top;
+        display:inline-block;
+    }
+
+    .mail{
+        color:white;
+        font-size:15px;
+        margin-left:8px;
+        display:inline-block;
+        vertical-align:top;
+    }
+    .insta{
+        color:white;
+        font-size:15px;
+        vertical-align:top;
+        margin-left:8px;
+        display:inline-block;
+    }
+    .phoneicon{
+        height:13px;
+        margin-left:15px;
+    }
+    .mailicon{
+        height:13px;
+        margin-left:15px;
+    }
+
+    .instaicon{
+        height:19px;
+        margin-left:15px;
+
+
+    }
+    .instaid{
+        color:white;
+    }
+    .please{
+        margin-left:38px;
+        font-family:arial;
+        font-size:45px;
+        font-weight:bold;
+        margin-bottom:0px;
+    }
+    .profileicon{
+        margin-left:180px;
+        display:inline-block;
+        border-radius:35px;
+        height:50px;
+        margin-top:10px;
+    }
+    .pavan{
+        color:white;
+        display: inline-block;
+        margin-top:23px;
+        font-size:25px;
+        margin-left:10px
+    }
+    .logout{
+        display:inline-block;
+    }
+    .logouticon{
+        height:55px;
+        margin-top:8px;
+        margin-left:70px;
+    
+    }
+    .content{
+        margin-left:100px;
+        margin-top:80px;
+    }
+    .welcomename{
+      font-family:arial;
+    }
+    .welcomenamepavan{
+        font-size:70px;
+        display:inline-block;
+        margin-left:20px;
+    }
+    .yourcourse{
+        font-size:40px;
+    }
+    .nametext{
+        display:inline-block;
+        font-size:70px;
+        color:indigo;
+        vertical-align:top;
+        margin-left:10px;
+        font-weight:bolder;
+    }
+    .yourcourse{
+        margin-top:20px;
+        margin-left:15px;
+        font-weight:bold;
+    }
+    .maths{
+        padding:30px;
+        margin-left:20px;
+        width:1338px;
+        border-radius:8px;
+        margin-top:20px;
+        color:white;
+        font-size:30px;
+        background-color:indigo;
+        border-width:0;
+        transition:0.5s;
+        font-weight:bold;
+    }
+    .physics{
+        padding:30px;
+        margin-left:20px;
+        width:1338px;
+        border-radius:8px;
+        margin-top:20px;
+        color:white;
+        font-size:30px;
+        background-color:purple;
+        border-width:0;
+        transition:0.5s;
+        font-weight:bold;
+    }
+    .electronics{
+        padding:30px;
+        margin-left:20px;
+        width:1338px;
+        border-radius:8px;
+        margin-top:20px;
+        color:white;
+        font-size:30px;
+        background-color:black;
+        border-width:0;
+        transition:0.5s;
+        font-weight:bold;
+    }
+    .idealab{
+        padding:30px;
+        margin-left:20px;
+        width:1338px;
+        border-radius:8px;
+        margin-top:20px;
+        color:white;
+        font-size:30px;
+        background-color:rgba(145, 5, 5, 0.963);
+        border-width:0;
+        transition:0.5s;
+        font-weight:bold;
+    }
+    .kannada{
+        padding:30px;
+        margin-left:20px;
+        width:1338px;
+        border-radius:8px;
+        margin-top:20px;
+        color:white;
+        font-size:30px;
+        background-color:rgb(175, 89, 26);
+        border-width:0;
+        transition:0.5s;
+        font-weight:bold;
+    }
+    .questionscolumn{
+        margin-top:85px;
+        margin-left:20px;
+        margin-bottom:30px;
+        font-size:60px;
+        display:inline-block;
+    }
+    .heading1{
+        margin-left:140px;
+        font-size:35px;
+        font-family:century;
+        font-weight:bold;
+        margin-bottom:15px;
+       
+    }
+    .question1{
+        margin-left:100px;
+        font-family:arial;
+        font-size:35px;
+        margin-bottom:15px;
+        
+        
+    }
+    .options{
+        margin-left:50px;
+        font-size:30px;
+        margin-bottom:20px;
+        
+    }
+
+    
+        .questionbruh{
+            border-width:2px;
+            border-style:solid;
+            border-color:indigo;
+            border-radius:8px;
+        }
+        .timeleft{
+            display:inline-block;
+            position:fixed;
+            margin-top:100px;
+            margin-left:1000px;
+            background-color: black;
+            color:white;
+            padding:7px;
+            font-family:arial;
+            font-weight:bold;
+            
+            ;
+        }
+        .previouspage{
+            display:inline-block;
+        }
+
+        .buttons{
+            margin-top:20px;
+            padding:20px;
+        }
+        .submit{
+            margin-left:1000px;
+        padding:30px;
+        margin-bottom:15px;
+        width:400px;
+        font-size:30px;
+        margin-top:30px;
+        background-color: black;
+        color:white;
+        border-width:0;
+        transition:0.5s;
+    
+        }
+        .submit:hover{
+            box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    cursor:pointer;
+    opacity:0.8;
+
+        }
+    </style>
+</head>
+<body >
+    <script>
+        // Set the countdown time in minutes
+        const countdownTime = 20;
+        
+        // Function to update the countdown timer
+        function updateTimer() {
+            const timerElement = document.getElementById('timer');
+            let timeRemaining = countdownTime * 60; // Convert minutes to seconds
+
+            function updateDisplay() {
+                const minutes = Math.floor(timeRemaining / 60);
+                const seconds = timeRemaining % 60;
+                timerElement.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            }
+
+            updateDisplay();
+
+            const timerInterval = setInterval(() => {
+                if (timeRemaining > 0) {
+                    timeRemaining--;
+                    updateDisplay();
+                } else {
+                    clearInterval(timerInterval);
+                    // Call a function to handle quiz end when the timer reaches 0
+                    quizEnd();
+                }
+            }, 1000);
+        }
+
+        // Function to handle quiz end
+        function quizEnd() {
+            // Add your logic to end the quiz here
+            alert('Quiz has ended!');
+            // You can redirect the user or perform other actions after the quiz ends
+        }
+
+        // Execute the timer when the page loads
+        window.onload = function () {
+            updateTimer();
+        };
+    </script>
+    
+  <div class="topbar">
+    <div class="left_side"><img class="logo" src="/Images/Logo.png"></div>
+    <div class="middle_side">middle side</div>
+    <div class="right_side">
+        <img class="profileicon" src="/Images/rv.jpeg">
+        <p class="pavan">Pavan G</p>
+    </div>
+         </div>
+
+         <div class="questionscolumn">Questions</div>
+         <div class="timeleft">Time Left : </div>
+            <div class="questionbruh">
+                <div class="questionbruh">
+                    <div class="heading1">Question 1</div>
+                    <div class="question1">Question 1 heading</div>
+                    <div class="options"><input type="radio" name="answers" >Option 1</div>
+                    <div class="options"><input type="radio" name="answers" >Option 2</div>
+                    <div class="options"><input type="radio" name="answers" >Option 3</div>
+                    <div class="options"><input type="radio" name="answers" >Option 4</div>
+                    </div>
+                </div>
+                <div class="questionbruh">
+                <div class="heading1">Question 2</div>
+                <div class="question1">Question 2 heading</div>
+                <div class="options"><input type="radio" name="answers" >Option 1</div>
+                <div class="options"><input type="radio"name="answers" >Option 2</div>
+                <div class="options"><input type="radio" name="answers" >Option 3</div>
+                <div class="options"><input type="radio" name="answers" >Option 4</div>
+                </div>
+                <div class="questionbruh">
+                    <div class="heading1">Question 3</div>
+                    <div class="question1">Question 3 heading</div>
+                    <div class="options"><input type="radio" name="answers" >Option 1</div>
+                    <div class="options"><input type="radio" name="answers" >Option 2</div>
+                    <div class="options"><input type="radio" name="answers" >Option 3</div>
+                    <div class="options"><input type="radio" name="answers" >Option 4</div>
+                    </div>
+                </div>
+                <div class="questionbruh">
+                    <div class="heading1">Question 4</div>
+                    <div class="question1">Question 4 heading</div>
+                    <div class="options"><input type="radio" name="answers" >Option 1</div>
+                    <div class="options"><input type="radio" name="answers" >Option 2</div>
+                    <div class="options"><input type="radio" name="answers" >Option 3</div>
+                    <div class="options"><input type="radio" name="answers" >Option 4</div>
+                    </div>
+                </div>
+                <div class="questionbruh">
+                    <div class="heading1">Question 5</div>
+                    <div class="question1">Question 5 heading</div>
+                    <div class="options"><input type="radio" name="answers" >Option 1</div>
+                    <div class="options"><input type="radio" name="answers" >Option 2</div>
+                    <div class="options"><input type="radio" name="answers" >Option 3</div>
+                    <div class="options"><input type="radio" name="answers" >Option 4</div>
+                    </div>
+            <div class="heading1">Question 6</div>
+            <div class="question1">Question 6 heading</div>
+            <div class="options"><input type="radio" name="answers" >Option 1</div>
+            <div class="options"><input type="radio" name="answers" >Option 2</div>
+            <div class="options"><input type="radio" name="answers" >Option 3</div>
+            <div class="options"><input type="radio" name="answers" >Option 4</div>
+            </div>
+        </div>
+        <div class="questionbruh">
+        <div class="heading1">Question 7</div>
+        <div class="question1">Question 7 heading</div>
+        <div class="options"><input type="radio" name="answers" >Option 1</div>
+        <div class="options"><input type="radio"name="answers" >Option 2</div>
+        <div class="options"><input type="radio" name="answers" >Option 3</div>
+        <div class="options"><input type="radio" name="answers" >Option 4</div>
+        </div>
+        <div class="questionbruh">
+            <div class="heading1">Question 8</div>
+            <div class="question1">Question 8 heading</div>
+            <div class="options"><input type="radio" name="answers" >Option 1</div>
+            <div class="options"><input type="radio" name="answers" >Option 2</div>
+            <div class="options"><input type="radio" name="answers" >Option 3</div>
+            <div class="options"><input type="radio" name="answers" >Option 4</div>
+            </div>
+        </div>
+        <div class="questionbruh">
+            <div class="heading1">Question 9</div>
+            <div class="question1">Question 9 heading</div>
+            <div class="options"><input type="radio" name="answers" >Option 1</div>
+            <div class="options"><input type="radio" name="answers" >Option 2</div>
+            <div class="options"><input type="radio" name="answers" >Option 3</div>
+            <div class="options"><input type="radio" name="answers" >Option 4</div>
+            </div>
+        </div>
+        <div class="questionbruh">
+            <div class="heading1">Question 10</div>
+            <div class="question1">Question 10 heading</div>
+            <div class="options"><input type="radio" name="answers" >Option 1</div>
+            <div class="options"><input type="radio" name="answers" >Option 2</div>
+            <div class="options"><input type="radio" name="answers" >Option 3</div>
+            <div class="options"><input type="radio" name="answers" >Option 4</div>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="submit">Submit</button>
+    </div>
+        
+
+
+
+
+ 
+</body>
+</html>
